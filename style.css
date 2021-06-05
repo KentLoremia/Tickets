@@ -1,0 +1,107 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+
+.flexbox-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.tickets {
+  font-size: 30px;
+}
+
+#search,
+#button {
+  font-size: 20px;
+}
+
+#search {
+  border: 2px solid lightblue;
+}
+
+#button {
+  color: white;
+  background-color: lightblue;
+  border: 2px solid lightblue;
+}
+
+/* Content */
+
+p {
+  font-size: 30px;
+}
+
+.flexbox-content,
+.filter {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+ 
+
+}
+
+.flexbox-item {
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+  white-space: pre-line;
+  flex-wrap: wrap;
+  
+}
+
+.filter {
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  display: inline;
+  text-align: left;
+}
+
+.box-result {
+  padding: 10px;
+  background-color: rgba(228, 228, 224, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dates {
+  width: 100px;
+  margin-left: 1px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.location {
+  width: 300px;
+  display: flex;
+  text-align: left;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 10px;
+    background-color: rgba(49, 64, 153, 0.911);
+    color: white;
+    padding-left: 200px;
+    
+}
+.copyright {
+    font-size: x-small;
+}
